@@ -1,0 +1,203 @@
+import java.util.ArrayList;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        ArrayList<Questao> questoes = new ArrayList<>();
+
+        // QUESTÃO 1
+        Questao q1 = new Questao();
+        q1.pergunta = "1. O que é hardware?";
+        q1.opcaoA = "A) Os programas instalados no computador";
+        q1.opcaoB = "B) A parte física do computador";
+        q1.opcaoC = "C) O sistema operacional";
+        q1.opcaoD = "D) Os arquivos armazenados no computador";
+        q1.opcaoE = "E) A conexão com a internet";
+        q1.correta = "B";
+        questoes.add(q1);
+
+        // QUESTÃO 2
+        Questao q2 = new Questao();
+        q2.pergunta = "2. Qual componente é considerado o cérebro do computador?";
+        q2.opcaoA = "A) Memória RAM";
+        q2.opcaoB = "B) Placa de vídeo";
+        q2.opcaoC = "C) Processador (CPU)";
+        q2.opcaoD = "D) HD";
+        q2.opcaoE = "E) Fonte de alimentação";
+        q2.correta = "C";
+        questoes.add(q2);
+
+        // QUESTÃO 3
+        Questao q3 = new Questao();
+        q3.pergunta = "3. Qual é a principal função da memória RAM?";
+        q3.opcaoA = "A) Armazenar arquivos permanentemente";
+        q3.opcaoB = "B) Fornecer energia ao computador";
+        q3.opcaoC = "C) Processar imagens";
+        q3.opcaoD = "D) Armazenar temporariamente dados e programas em uso";
+        q3.opcaoE = "E) Conectar o computador à internet";
+        q3.correta = "D";
+        questoes.add(q3);
+
+        // QUESTÃO 4
+        Questao q4 = new Questao();
+        q4.pergunta = "4. Qual componente é utilizado para armazenar arquivos de forma permanente?";
+        q4.opcaoA = "A) RAM";
+        q4.opcaoB = "B) CPU";
+        q4.opcaoC = "C) HD ou SSD";
+        q4.opcaoD = "D) Fonte";
+        q4.opcaoE = "E) Placa de vídeo";
+        q4.correta = "C";
+        questoes.add(q4);
+
+        // QUESTÃO 5
+        Questao q5 = new Questao();
+        q5.pergunta = "5. Qual componente é responsável pelo processamento de gráficos e imagens?";
+        q5.opcaoA = "A) GPU";
+        q5.opcaoB = "B) Fonte de alimentação";
+        q5.opcaoC = "C) HD";
+        q5.opcaoD = "D) Memória RAM";
+        q5.opcaoE = "E) Placa de som";
+        q5.correta = "A";
+        questoes.add(q5);
+
+        // QUESTÃO 6
+        Questao q6 = new Questao();
+        q6.pergunta = "6. Qual é a função da placa-mãe?";
+        q6.opcaoA = "A) Exibir imagens na tela";
+        q6.opcaoB = "B) Armazenar todos os arquivos do usuário";
+        q6.opcaoC = "C) Conectar e permitir a comunicação entre os componentes";
+        q6.opcaoD = "D) Fornecer acesso à internet sozinho";
+        q6.opcaoE = "E) Resfriar o processador";
+        q6.correta = "C";
+        questoes.add(q6);
+
+        // QUESTÃO 7
+        Questao q7 = new Questao();
+        q7.pergunta = "7. Qual componente fornece energia elétrica para os componentes internos?";
+        q7.opcaoA = "A) Processador";
+        q7.opcaoB = "B) Fonte de alimentação";
+        q7.opcaoC = "C) Memória RAM";
+        q7.opcaoD = "D) Placa-mãe";
+        q7.opcaoE = "E) SSD";
+        q7.correta = "B";
+        questoes.add(q7);
+
+        // QUESTÃO 8
+        Questao q8 = new Questao();
+        q8.pergunta = "8. Qual das opções representa um dispositivo de entrada?";
+        q8.opcaoA = "A) Monitor";
+        q8.opcaoB = "B) Impressora";
+        q8.opcaoC = "C) Caixa de som";
+        q8.opcaoD = "D) Teclado";
+        q8.opcaoE = "E) Projetor";
+        q8.correta = "D";
+        questoes.add(q8);
+
+        // QUESTÃO 9
+        Questao q9 = new Questao();
+        q9.pergunta = "9. Qual das opções representa um dispositivo de saída?";
+        q9.opcaoA = "A) Mouse";
+        q9.opcaoB = "B) Teclado";
+        q9.opcaoC = "C) Microfone";
+        q9.opcaoD = "D) Monitor";
+        q9.opcaoE = "E) Scanner";
+        q9.correta = "D";
+        questoes.add(q9);
+
+        // QUESTÃO 10
+        Questao q10 = new Questao();
+        q10.pergunta = "10. Qual é uma vantagem comum do SSD em relação ao HD?";
+        q10.opcaoA = "A) Possui partes mecânicas móveis";
+        q10.opcaoB = "B) Normalmente oferece maior velocidade";
+        q10.opcaoC = "C) Precisa de internet para funcionar";
+        q10.opcaoD = "D) Não pode armazenar arquivos";
+        q10.opcaoE = "E) Serve apenas para executar jogos";
+        q10.correta = "B";
+        questoes.add(q10);
+
+        // QUESTÃO 11
+        Questao q11 = new Questao();
+        q11.pergunta = "11. Qual componente ajuda a manter o processador em uma temperatura adequada?";
+        q11.opcaoA = "A) Cooler";
+        q11.opcaoB = "B) SSD";
+        q11.opcaoC = "C) Teclado";
+        q11.opcaoD = "D) Memória RAM";
+        q11.opcaoE = "E) Placa de som";
+        q11.correta = "A";
+        questoes.add(q11);
+
+        // QUESTÃO 12
+        Questao q12 = new Questao();
+        q12.pergunta = "12. O que significa a sigla CPU?";
+        q12.opcaoA = "A) Central Program Unit";
+        q12.opcaoB = "B) Computer Personal Unit";
+        q12.opcaoC = "C) Central Processing Unit";
+        q12.opcaoD = "D) Computer Processing Utility";
+        q12.opcaoE = "E) Control Program Utility";
+        q12.correta = "C";
+        questoes.add(q12);
+
+        // QUESTÃO 13
+        Questao q13 = new Questao();
+        q13.pergunta = "13. Qual componente pode ser utilizado para conectar o computador a uma rede sem fio?";
+        q13.opcaoA = "A) Placa de rede Wi-Fi";
+        q13.opcaoB = "B) Memória RAM";
+        q13.opcaoC = "C) Fonte de alimentação";
+        q13.opcaoD = "D) Processador";
+        q13.opcaoE = "E) Cooler";
+        q13.correta = "A";
+        questoes.add(q13);
+
+        // QUESTÃO 14
+        Questao q14 = new Questao();
+        q14.pergunta = "14. Qual componente é responsável pelo processamento de áudio?";
+        q14.opcaoA = "A) Placa de som";
+        q14.opcaoB = "B) SSD";
+        q14.opcaoC = "C) Processador";
+        q14.opcaoD = "D) Fonte";
+        q14.opcaoE = "E) Memória RAM";
+        q14.correta = "A";
+        questoes.add(q14);
+
+        // QUESTÃO 15
+        Questao q15 = new Questao();
+        q15.pergunta = "15. Qual alternativa apresenta apenas componentes de hardware?";
+        q15.opcaoA = "A) Windows, Linux e Word";
+        q15.opcaoB = "B) Chrome, teclado e mouse";
+        q15.opcaoC = "C) Processador, memória RAM e SSD";
+        q15.opcaoD = "D) Excel, PowerPoint e Windows";
+        q15.opcaoE = "E) Android, Linux e Chrome";
+        q15.correta = "C";
+        questoes.add(q15);
+
+        // EXECUÇÃO DO QUIZ
+
+        int acertos = 0;
+
+        for (Questao questao : questoes) {
+
+            questao.escrevaQuestao();
+
+            String resposta = questao.leiaResposta();
+
+            if (questao.isCorreta(resposta)) {
+                acertos++;
+            }
+        }
+
+        // RESULTADO
+
+        double porcentagem = (acertos * 100.0) / questoes.size();
+
+        System.out.println("==========================================");
+        System.out.println("              RESULTADO FINAL");
+        System.out.println("==========================================");
+        System.out.println("Quantidade de acertos: " + acertos);
+        System.out.printf("Porcentagem de acertos: %.2f%%%n", porcentagem);
+        System.out.println();
+        System.out.println("Obrigado pela participação no Quiz!");
+        System.out.println("==========================================");
+    }
+}
+```
